@@ -33,7 +33,7 @@ function Home() {
             <Container>
                 <div className='grid grid-cols-4 max-[580px]:grid-cols-1 gap-5 max-[780px]:grid-cols-2'>
                     {posts.map((post) => (
-                        <div key={post.$id} className='p-2 grid-cols-1'>
+                        <div key={post.$id} className='p-2 grid-cols-1 bg-white shadow-md rounded-xl'>
                             <PostCard {...post} />
                         </div>
                     ))}
