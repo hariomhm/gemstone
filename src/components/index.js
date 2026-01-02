@@ -7,6 +7,6 @@ import AuthLayout from "./AuthLayout"
 import LogIn from "./LogIn"
 import SignUp from "./SignUp"
 import PostCard from "./PostCard"
-import Container from "./container/container";
+import Container from "./container/Container";
 
 export { Header, Footer, Input, RTE, PostForm, AuthLayout, LogIn, SignUp, PostCard, Container };
